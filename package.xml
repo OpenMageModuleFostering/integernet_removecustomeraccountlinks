@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>IntegerNet_RemoveCustomerAccountLinks</name>
+    <version>1.1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl-3.0.html">OSL-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Removes customer account links in Magento.</summary>
+    <description>Removes customer account links in Magento.</description>
+    <notes></notes>
+    <authors><author><name>integer_net GmbH</name><user>info</user><email>info@integer-net.de</email></author><author><name>Christian Philipp</name><user>cp</user><email>cp@integer-net.de</email></author><author><name>Viktor Franz</name><user>vf</user><email>vf@integer-net.de</email></author></authors>
+    <date>2013-12-13</date>
+    <time>10:22:02</time>
+    <contents><target name="magecommunity"><dir name="IntegerNet"><dir name="RemoveCustomerAccountLinks"><dir name="Block"><file name="Navigation.php" hash="8ac60c94093910b3dfeaa46c9deef207"/></dir><dir name="Helper"><file name="Data.php" hash="0a020ab3fc08266cbb73b6323775ac0f"/></dir><dir name="Model"><dir name="System"><dir name="Source"><file name="Item.php" hash="2a1ff0d7d3db834818749f289174e94c"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="016f7b5e3e840e1994d168e100f477db"/><file name="config.xml" hash="ee88f048feaff7214da44ffe73fb706e"/><file name="system.xml" hash="a89894574b8f6feb2516f5ebabb91f43"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="IntegerNet_RemoveCustomerAccountLinks.xml" hash="497d8b2b62fa8cd2627e247a1fae7d33"/></dir></target><target name="magelocale"><dir name="de_DE"><file name="IntegerNet_RemoveCustomerAccountLinks.csv" hash="3d558295282db99992f41f52ab1418e8"/></dir><dir name="en_US"><file name="IntegerNet_RemoveCustomerAccountLinks.csv" hash="83a4d1ab7b66dbaf95556469d5f6a590"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
