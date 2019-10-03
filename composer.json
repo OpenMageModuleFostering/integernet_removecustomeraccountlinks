@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/IntegerNet_RemoveCustomerAccountLinks",
+    "name": "openmage-module-fostering\/integernet_removecustomeraccountlinks",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
