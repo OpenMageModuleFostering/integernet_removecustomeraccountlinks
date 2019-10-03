@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/IntegerNet_RemoveCustomerAccountLinks",
+    "name": "OpenMageModuleFostering\/IntegerNet_RemoveCustomerAccountLinks",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
     "description": "Removes customer account links in Magento.",
     "authors": [
-    {
-        "name": "integer_net GmbH",
-        "email": "info@integer-net.de"
-    }
-],
+        {
+            "name": "integer_net GmbH",
+            "email": "info@integer-net.de"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
